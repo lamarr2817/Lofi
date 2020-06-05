@@ -22,6 +22,9 @@ Lofi is a collection of scripts made my me, I make these scripts for fun and the
 
 
 **Contacts**
+
 	L.A#5212 @discord.gg
+	
 	https://www.youtube.com/channel/UCUTTClYKxDPM6Dh60gYVrQQ @youtube.com
+	
 	https://steamcommunity.com/id/TheyCallMeLosAngeles/ @steamcommunity.com
