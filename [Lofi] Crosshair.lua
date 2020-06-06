@@ -58,7 +58,7 @@ end
 
 function Lofi:OnDraw()
 
-    if not LocalPlayer():GetProp("m_angEyeAngles") then return end
+    if not LocalPlayer() or not LocalPlayer():GetProp("m_angEyeAngles") then return end
 
     Lofi.Offset = 15
 
