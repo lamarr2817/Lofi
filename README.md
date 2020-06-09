@@ -16,6 +16,9 @@ Lofi is a collection of scripts made my me, I make these scripts for fun and the
 	└ [Lofi] Quick Peek Beta.lua
 		└ This lua makes is so when the keybind is pressed, a circle  will appear on the position you were when you pressed the key.
 		└ Shooting makes you retreat to this position.
+	└ [Lofi] MinDmg	Override.lua
+		└ This lua makes is so when the keybind is pressed, the mindmg of every gun will be put to 0.
+		└ The mindmg will restore on release.
 
 
 **Contacts**
