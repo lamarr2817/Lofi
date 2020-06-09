@@ -84,7 +84,7 @@ function Lofi:OnDraw()
     end
 
     Lofi:DrawIndicator( ScrW / 2, ScrH / 2 + Lofi.Radius, "ON-SHOT", true, globals.CurTime() - Lofi.LastShot < 0.1 )
-    Lofi:DrawIndicator( ScrW / 2, ScrH / 2 + Lofi.Radius, "DOUBLE TAP", true, gui.GetValue( "rbot.accuracy.weapon.asniper.doublefire" ) > 1 )
+    Lofi:DrawIndicator( ScrW / 2, ScrH / 2 + Lofi.Radius, "DOUBLE TAP", true, gui.GetValue( "rbot.accuracy.weapon.asniper.doublefire" ) > 0 )
     Lofi:DrawIndicator( ScrW / 2, ScrH / 2 + Lofi.Radius, "AT TARGETS", true, AtTargets ~= nil and AtTargets == true )
 
 end
