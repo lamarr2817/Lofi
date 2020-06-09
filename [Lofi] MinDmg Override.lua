@@ -1,6 +1,7 @@
 local Lofi = {
     OldDamage = {},
     Keybind = gui.Keybox( gui.Reference( "Ragebot", "Accuracy", "Position Adjustment" ), "lofi.mindmg", "Minimal Damage Override", 0 ),
+    Slider = gui.Slider( gui.Reference( "Ragebot", "Accuracy", "Position Adjustment" ), "lofi.override", "Override Damage", 0, 0, 100 ),
     IsDown = false,
     DamageReferences = {
         "rbot.accuracy.weapon.asniper.mindmg",
@@ -35,7 +36,7 @@ function Lofi:OnDraw()
     end
     if IsDown and Lofi.IsDown then
         for i,v in next, Lofi.DamageReferences do
-            gui.SetValue( v, 0 )
+            gui.SetValue( v, Lofi.Slider:GetValue() )
         end
     end
     Lofi.IsDown = IsDown
