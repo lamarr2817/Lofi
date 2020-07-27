@@ -19,6 +19,9 @@ Lofi is a collection of scripts made my me, I make these scripts for fun and the
 	└ [Lofi] MinDmg	Override.lua
 		└ This lua makes is so when the keybind is pressed, the mindmg of every gun will be put to 0.
 		└ The mindmg will restore on release.
+	└ [Lofi] Out Of View.lua
+		└ This lua adds a flat and standard out of view indicator.
+		└ The settings are in Visuals > Local > Helper
 
 
 **Contacts**
