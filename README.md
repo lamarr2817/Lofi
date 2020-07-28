@@ -22,6 +22,9 @@ Lofi is a collection of scripts made my me, I make these scripts for fun and the
 	└ [Lofi] Out Of View.lua
 		└ This lua adds a flat and standard out of view indicator.
 		└ The settings are in Visuals > Local > Helper
+	└ [Lofi] Manual.lua
+		└ This lua adds functionality to use manual anti-aim.
+		└ The settings are in Ragebot > Anti-Aim > Extra
 
 
 **Contacts**
