@@ -29,8 +29,9 @@ function Lofi:Normalize(Yaw)
 end
 
 function Lofi:DrawCircle2D(x, y, radius, start, angle)
-    local OldAngle = math.rad(start + 270);
-    for NewAngle = start + 270, start + angle + 270 do
+    local angoff = 270 - angle / 2
+    local OldAngle = math.rad(start + angoff);
+    for NewAngle = start + angoff, start + angle + angoff do
         NewAngle = math.rad(NewAngle) --// Degrees to radians
         local OffsetX, OffsetY = math.cos(NewAngle) * radius, math.sin(NewAngle) * radius
         local OldOffsetX, OldOffsetY = math.cos(OldAngle) * radius, math.sin(OldAngle) * radius
